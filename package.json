@@ -1,0 +1,27 @@
+{
+  "name": "memorystream-history",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "start:dev": "nodemon --legacy-watch ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blue-Sky-Data-Engineering/memorystream-history.git"
+  },
+  "author": "Hamish MacDonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blue-Sky-Data-Engineering/memorystream-history/issues"
+  },
+  "homepage": "https://github.com/Blue-Sky-Data-Engineering/memorystream-history#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
